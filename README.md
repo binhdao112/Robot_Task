@@ -9,7 +9,7 @@ To run the robot framework in your PC you need to do the following steps:
 
 Run The TestCase:
 
-To run the testcase you can use `Robot [testcasename].robot` to start testcase
+To run the testcase you can use `Robot [testcasename].robot` in Terminal to start testcase
 
 **Note**: ***you need be in folder test case***
 
