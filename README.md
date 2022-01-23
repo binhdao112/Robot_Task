@@ -11,6 +11,8 @@ Run The TestCase:
 
 To run the testcase you can use `Robot [testcasename].robot` in Terminal to start testcase
 
+To run the test case with result HTML you can use `Robot -d [Folder name] [Testcase].robot` in Terminal
+
 **Note**: ***you need be in folder test case***
 
 # :pray::pray: Thank you for watching 
