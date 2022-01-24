@@ -18,6 +18,5 @@ LoginPage
     LoginObject.Input Data into Password  ${LoginPasswordInput}
     LoginObject.Click Submit  ${Submit}
     Verify Text Login success    Welcome back
-    Sleep    5s
 *** Keywords ***
 
