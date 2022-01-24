@@ -3,16 +3,21 @@ Library  SeleniumLibrary
 
 *** Keywords ***
 Go to Login Page
-    Click Element    //a[@href="login.php"]
+    [Arguments]  ${Loginpage}
+    Click Element  ${Loginpage}
 
 Input Data into UserName
-    Input Text    name:userName    Demo123
+    [Arguments]  ${Usernameinput}
+    Input Text    ${Usernameinput}    Demo123
 
 Input Data into Password
-    Input Password    name:password    123
+    [Arguments]  ${Passwordinput}
+    Input Password     ${Passwordinput}   123
 
 Click Submit
-    Click Element    name:submit
+    [Arguments]  ${Submit}
+    Click Element  ${Submit}
 
 Verify Text Login success
-    Page Should Contain     Welcome back
+    [Arguments]  ${result}
+    Page Should Contain     ${result}
