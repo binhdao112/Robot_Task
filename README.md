@@ -13,6 +13,8 @@ To run the testcase you can use `Robot [testcasename].robot` in Terminal to star
 
 To run the test case with result HTML you can use `Robot -d [Folder name] [Testcase].robot` in Terminal
 
+To run the test case with more Browser you can use  `Robot -d [Folder name] -v BROWSER:[browser_name] [Testcase].robot` in Terminal
+
 **Note**: ***you need be in folder test case***
 
 # :pray::pray: Thank you for watching 
