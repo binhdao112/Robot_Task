@@ -4,7 +4,7 @@ Library  SeleniumLibrary
 Resource  ../Resources/Common.robot
 Resource  ../Resources/Page Object Model/LoginObject.robot
 Variables  ../Resources/Element/WebElement.py
-Test Setup   Common.Start Test
+Test Setup   Common.Start Test  ${URL}
 Test Teardown   Common.End Test
 *** Variables ***
 ${URL}  https://demo.guru99.com/test/newtours/index.php
